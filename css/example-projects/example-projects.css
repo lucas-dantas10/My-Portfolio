@@ -1,0 +1,51 @@
+.example-projects {
+      display: flex;
+      justify-content: space-between;
+      margin: 2rem 0 0 0;
+}
+
+.example-projects .project {
+      width: 47%;
+      height: 23vh;
+      border: 1px solid var(--bg-cards);
+      background-color: var(--bg-cards);
+      box-shadow: 1px 2px var(--bg-shadow);
+      border-radius: 2rem;
+}
+
+.example-projects .project .title {
+      color: var(--text-color);
+      display: flex;
+      align-items: center;
+      margin: 2rem 0 0 2rem;
+}
+
+.example-projects .project .title .title-course {
+      margin-left: 1rem;
+}
+
+.example-projects .project .subtitle {
+      color: var(--text-color);
+      margin: 2rem 0 2rem 2rem;
+}
+
+.example-projects .project .avaliation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--text-color);
+      font-weight: 400;
+      margin-top: 2rem;
+}
+
+.example-projects .project .avaliation .language {
+      margin-right: 2rem;
+}
+
+.example-projects .project .avaliation .avaliation-number {
+      margin-left: 2rem;
+}
+
+.example-projects .project .avaliation .avaliation-number .fork {
+      margin-left: 1rem;
+}
