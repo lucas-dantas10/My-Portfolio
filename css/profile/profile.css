@@ -1,0 +1,43 @@
+.profile {
+      width: 400px;
+      height: 350px;
+      border: 1px solid var(--bg-cards);
+      background-color: var(--bg-cards);
+      box-shadow: 1px 3px var(--bg-shadow);
+      border-radius: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 2rem 0 0 2rem;
+}
+
+.profile .navigation .list {
+      list-style: none;
+}
+
+.profile .navigation .description {
+      display: flex;
+      flex-direction: row;
+      align-items: center;      
+}
+
+.profile .navigation .description .image {
+      margin-right: 1rem;
+}
+
+.profile .navigation .description .list-description {
+      color: var(--text-color);
+      line-height: 2;
+      margin-top: .5rem;
+}
+
+.profile .navigation .description .list-description .list-link {
+      text-decoration: none;
+      color: var(--text-color);
+      transition: 1s;
+}
+
+.profile .navigation .description .list-description .list-link:hover {
+      color: var(--border-color);
+}
