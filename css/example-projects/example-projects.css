@@ -1,12 +1,12 @@
 .example-projects {
       display: flex;
       justify-content: space-between;
-      margin: 2rem 0 0 0;
+      margin: 2rem 4rem 0 0;
 }
 
 .example-projects .project {
       width: 47%;
-      height: 23vh;
+      height: 26vh;
       border: 1px solid var(--bg-cards);
       background-color: var(--bg-cards);
       box-shadow: 1px 2px var(--bg-shadow);

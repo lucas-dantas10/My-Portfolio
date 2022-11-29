@@ -20,6 +20,7 @@
       <link rel="stylesheet" href="./css/education/education.css">
       <link rel="stylesheet" href="./css/projects/projects.css">
       <link rel="stylesheet" href="./css/example-projects/example-projects.css">
+      <link rel="stylesheet" href="./css/posts/posts.css">
 
 </head>
 <body>
@@ -166,7 +167,7 @@
                         <div class="project">
                               <div class="title">
                                     <img src="./assets/folder.svg" alt="Imagem de uma pasta de arquivos">
-                                    <p class="title-course">lista-cursos</p>
+                                    <p id="name-course" class="title-course"></p>
                               </div>
 
                               <p class="subtitle">Projeto que lista cursos, possui requisições para criar, ler, atualizar e<br> deletar curso.</p>
@@ -174,10 +175,10 @@
                               <div class="avaliation">
                                     <div class="avaliation-number">
                                           <img src="./assets/star.svg" alt="Imagem de uma estrela">
-                                          <span>100</span>
+                                          <span>0</span>
 
                                           <img class="fork" src="./assets/git-branch.svg" alt="Imagem de um fork">
-                                          <span>100</span>
+                                          <span>0</span>
                                     </div>
                                     <p class="language">PHP</p>
                               </div>
@@ -187,7 +188,7 @@
                         <div class="project">
                               <div class="title">
                                     <img src="./assets/folder.svg" alt="Imagem de uma pasta de arquivos">
-                                    <p class="title-course">Alura-Tracker</p>
+                                    <p id="course-name" class="title-course"></p>
                               </div>
 
                               <p class="subtitle">Projeto que conta o tempo que você estuda uma tarefa, e possui uma<br> feature de colocar tarefas dentro de projetos.</p>
@@ -195,17 +196,24 @@
                               <div class="avaliation">
                                     <div class="avaliation-number">
                                           <img src="./assets/star.svg" alt="Imagem de uma estrela">
-                                          <span>100</span>
+                                          <span id="star">0</span>
 
                                           <img class="fork" src="./assets/git-branch.svg" alt="Imagem de um fork">
-                                          <span>100</span>
+                                          <span id="fork">0</span>
                                     </div>
                                     <p class="language">Vue</p>
                               </div>
                         </div>
                   </section>
+
+                  <div class="posts">
+                        <h1 class="title">Posts recentes</h1>
+                  </div>
             </main>
       </div>
+
+
+      <script src="./js/main.js"></script>
       
 </body>
 </html>
