@@ -49,3 +49,24 @@
 .example-projects .project .avaliation .avaliation-number .fork {
       margin-left: 1rem;
 }
+
+.example-projects .project .language-main {
+      display: flex;
+}
+
+.example-projects .project .language-main span {
+      border: 1px solid var(--php);
+      border-radius: 3rem;
+      background-color: var(--php);
+      padding: 8px 9px;
+      margin-right: .5rem;
+}
+
+.example-projects .project .language-main .other-language {
+      border: 1px solid var(--vue);
+      border-radius: 3rem;
+      background-color: var(--vue);
+      padding: 8px 9px;
+      margin-right: .5rem;
+}
+
