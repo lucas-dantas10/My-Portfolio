@@ -19,7 +19,7 @@
 .profile .navigation .description {
       display: flex;
       flex-direction: row;
-      align-items: center;      
+      align-items: center;   
 }
 
 .profile .navigation .description .image {
@@ -40,4 +40,21 @@
 
 .profile .navigation .description .list-description .list-link:hover {
       color: var(--border-color);
+}
+
+
+@media only screen and (max-width: 1300px) {
+      .profile {
+            width: 350px;
+            height: 300px;
+            border: 1px solid var(--bg-cards);
+            background-color: var(--bg-cards);
+            box-shadow: 1px 3px var(--bg-shadow);
+            border-radius: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 2rem 0 0 2rem;
+      }
 }

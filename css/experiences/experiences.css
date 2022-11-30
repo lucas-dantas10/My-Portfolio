@@ -28,3 +28,9 @@
       line-height: 1.5;
       color: var(--text-color);
 }
+
+@media only screen and (max-width: 1300px) {
+      .experiences {
+            width: 350px;
+      }
+}

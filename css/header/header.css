@@ -35,3 +35,30 @@
       font-weight: 400;
       margin-top: 1rem;
 }
+
+@media only screen and (max-width: 1300px) {
+      .header-main {
+            width: 32%;
+      }
+
+      .header {
+            width: 350px;
+            height: 300px;
+            border: 1px solid var(--bg-cards);
+            box-shadow: 1px 3px black;
+            background-color: var(--bg-cards);
+            border-radius: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 2rem 0 0 2rem;
+      }
+
+      .header .image {
+            width: 35%;
+            height: 40%;
+            border: 3px solid var(--border-color);
+      }
+          
+}

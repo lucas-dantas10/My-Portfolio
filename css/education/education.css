@@ -29,3 +29,10 @@
       line-height: 1.5;
       color: var(--text-color);
 }
+
+@media only screen and (max-width: 1300px) {
+      .education {
+            width: 350px;
+            height: 1050px;
+      }
+}

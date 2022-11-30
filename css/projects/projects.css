@@ -26,4 +26,10 @@
       color: var(--text-color);
       margin-right: 2rem;
       font-weight: 500;
+      text-decoration: none;
+      transition: 1s;
+}
+
+.main-profile .projects .look-projects:hover {
+      color: var(--border-color);
 }

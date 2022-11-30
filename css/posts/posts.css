@@ -13,3 +13,10 @@
     margin: 1.5rem 0 0 2rem;
     font-weight: 700;
 }
+
+@media only screen and (max-width: 1300px) {
+    .posts .title {
+        margin: .5rem 0 0 2rem;
+        font-weight: 700;
+    }
+}
