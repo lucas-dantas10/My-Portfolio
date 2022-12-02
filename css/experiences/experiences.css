@@ -29,8 +29,14 @@
       color: var(--text-color);
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (min-width: 1000px) and (max-width: 1300px){
       .experiences {
             width: 350px;
+      }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+      .experiences {
+            width: 90%;
       }
 }

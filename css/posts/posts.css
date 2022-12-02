@@ -14,9 +14,15 @@
     font-weight: 700;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
     .posts .title {
         margin: .5rem 0 0 2rem;
         font-weight: 700;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+    .main-profile .posts {
+        width: 90%;
     }
 }

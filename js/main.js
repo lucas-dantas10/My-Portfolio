@@ -9,6 +9,8 @@ const nomeRepositorio = fetch(url)
     })
     .then(response => {
 
+        console.log(response);
+
         response.forEach(res => {
             if (res.id === 550959984) {
                 let nameRepos = res.name;

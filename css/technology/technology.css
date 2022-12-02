@@ -36,7 +36,7 @@
       margin: .5rem 1rem;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (min-width: 1000px) and (max-width: 1300px){
       .technology {
             width: 350px;
             height: 250px;
@@ -57,5 +57,13 @@
             font-weight: 700;
             padding: .5rem .5rem;
             margin: .5rem 1rem;
+      }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+
+      .technology {
+            width: 90%;
+            height: 200px;
       }
 }
