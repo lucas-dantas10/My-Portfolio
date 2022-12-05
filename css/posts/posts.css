@@ -24,5 +24,10 @@
 @media only screen and (min-width: 700px) and (max-width: 999px) {
     .main-profile .posts {
         width: 90%;
+        margin-bottom: 2rem;
+    }
+
+    .main-profile .posts .title {
+        margin: .4rem 0 2rem 2rem;
     }
 }
