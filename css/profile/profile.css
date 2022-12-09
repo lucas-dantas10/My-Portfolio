@@ -74,3 +74,10 @@
             font-size: 19px;
       }
 }
+
+@media only screen and (min-width: 375px) and (max-width: 699px) {
+      .profile {
+            width: 90%;
+            margin-left: .5rem;
+      }
+}

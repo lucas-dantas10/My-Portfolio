@@ -40,3 +40,11 @@
             width: 90%;
       }
 }
+
+
+@media only screen and (min-width: 375px) and (max-width: 699px) {
+      .experiences {
+            width: 90%;
+            margin-left: .5rem;
+      }
+}

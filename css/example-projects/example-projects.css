@@ -99,3 +99,15 @@
             margin-bottom: 1rem;
       }
 }
+
+@media only screen and (min-width: 375px) and (max-width: 699px) {
+      .example-projects .project-solo {
+            display: none;
+      }
+
+      .example-projects .project {
+            width: 100%;
+            margin-left: 2rem;
+            height: 31vh;
+      }
+}
